@@ -1,0 +1,142 @@
+/* font for the page */
+* { 
+	font-family: "Times New Roman", serif;
+  } 
+
+
+/* Creates the margins for the quiz and the high score boxes */
+.quiz, 
+.scores { 
+	margin: 50px auto 0 auto; 
+	max-width: 400px; 
+} 
+
+
+/* Sets the background images for the quiz and the high score pages */
+body {
+	background-image: url("https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+#hs {
+	background-image: url("https://img.freepik.com/free-vector/celebration-background-with-colorful-party-flag-falling-confetti_1314-2538.jpg?w=996&t=st=1702748467~exp=1702749067~hmac=e1d480f026ace34ae5afa3051847e08ecda9ca616df2ee98d297e4dad7ba12da");
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+
+
+/* creates the main box that holds the main quiz and the high scores */
+.container { 
+	border: 5px solid; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	height: 580px; 
+	width: 50%; 
+	transform: translate(-50%, -50%); 
+	padding: 10px; 
+    background-color: #fff;
+
+} 
+
+/* Sets the magins for all paragraph itmes */
+p { 
+	margin: 15px 15px; 
+} 
+
+/* sets the content for the landing (pre-quiz) area */
+.landing { 
+	text-align: center; 
+} 
+
+/* sets the location of the high score button */
+.scoresHeader { 
+	position: absolute; 
+	top: 15px; 
+	left: 15px; 
+} 
+
+/* set the location of the timer */
+.timer { 
+	position: absolute; 
+	top: 15px; 
+	right: 15px; 
+} 
+
+/* sets the attributes for all the buttons */
+button { 
+	display: inline-block; 
+	margin: 10px; 
+	cursor: pointer; 
+	color: #fff; 
+	background-color: purple; 
+	border-radius: 5px; 
+	border: 0; 
+	padding: 20px; 
+} 
+
+/* changes the color of the buttons when the mouse is over the button */
+button:hover { 
+	background-color: blue; 
+} 
+
+/* sets the buton "look" (style) */
+.options button { 
+	display: block; 
+} 
+
+/* creates the input styles (used on the high score capture */
+input[type="text"] { 
+	font-size: 100%; 
+} 
+
+/* hides the elements with this tag until called in the JS */
+.hide { 
+	display: none; 
+} 
+
+/* this class is used to show the either correct or incorrect answers  */
+.feedback { 
+	font-style: bold; 
+	font-size: 120%; 
+	margin-top: 20px; 
+	padding-top: 15px; 
+	color: #fff; 
+	border-top: 2px solid #4B0082; 
+} 
+
+/* formating for the list items (questions) */
+ol { 
+	padding-left: 15px; 
+	max-height: 600px; 
+	overflow: auto; 
+} 
+
+/* formating for the list items (answers) */
+li { 
+	padding: 5px; 
+	list-style: decimal inside none; 
+} 
+
+li:nth-child(odd) { 
+	background-color: #dfdae7; 
+} 
+
+@media screen and (max-width: 768px) { 
+	.containerNew { 
+		width: 80%; 
+	} 
+} 
+
+@media screen and (max-width: 575px) { 
+	.containerNew { 
+		width: 90%; 
+	} 
+
+	.quiz, 
+	.scores { 
+		max-width: 90%; 
+	} 
+}
