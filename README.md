@@ -40,9 +40,9 @@ The landing page gives you two options, you can either click the start quiz butt
 
 To begin the quiz:
 
-1. Click on "Start Quiz"
-	a. Once the button is clicked the user will be presented with the first question
-	b. The timer will begin counting down 
+- 1. Click on "Start Quiz"
+	- a. Once the button is clicked the user will be presented with the first question
+	- b. The timer will begin counting down 
 2. The questions on the quiz are multiple choice (including a true / false question).  
 	a. Clicking on either a correct or incorrect response will move the user to the next question		
 	        i. Clicking on an incorrect question whill show the correct answer in red text at the bottom of the quizbox
