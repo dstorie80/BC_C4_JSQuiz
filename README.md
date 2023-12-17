@@ -41,13 +41,13 @@ The landing page gives you two options, you can either click the start quiz butt
 To begin the quiz:
 
 - 1. Click on "Start Quiz"
-	- a. Once the button is clicked the user will be presented with the first question
-	- b. The timer will begin counting down 
-2. The questions on the quiz are multiple choice (including a true / false question).  
-	a. Clicking on either a correct or incorrect response will move the user to the next question		
-	        i. Clicking on an incorrect question whill show the correct answer in red text at the bottom of the quizbox
-			A. Every incorrect answer selected will deduct 10 seconds off the time remaining
-	       ii. Clicking on a correct response, will show the word "Correct" in green letters at the bottom of the quizbox
+  - a. Once the button is clicked the user will be presented with the first question
+  - b. The timer will begin counting down 
+- 2. The questions on the quiz are multiple choice (including a true / false question).  
+  - a. Clicking on either a correct or incorrect response will move the user to the next question		
+   - i. Clicking on an incorrect question whill show the correct answer in red text at the bottom of the quizbox
+     - A. Every incorrect answer selected will deduct 10 seconds off the time remaining
+   - ii. Clicking on a correct response, will show the word "Correct" in green letters at the bottom of the quizbox
 3. Answering the questions correctly or incorrectly will eventually bring the user to the end of the quiz where they can enter their initials into a text box to add their initials and score to the high scores page
 	a. The score is the reminaing time left on the clock
 4. Once the initials are entered, the user will click on the "Submit" button and be presented with an alert stating "Your score has been submitted"
