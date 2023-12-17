@@ -40,26 +40,47 @@ The landing page gives you two options, you can either click the start quiz butt
 
 To begin the quiz:
 
-- 1. Click on "Start Quiz"
-  - a. Once the button is clicked the user will be presented with the first question
-  - b. The timer will begin counting down 
-- 2. The questions on the quiz are multiple choice (including a true / false question).  
-  - a. Clicking on either a correct or incorrect response will move the user to the next question		
-   - i. Clicking on an incorrect question whill show the correct answer in red text at the bottom of the quizbox
-     - A. Every incorrect answer selected will deduct 10 seconds off the time remaining
-   - ii. Clicking on a correct response, will show the word "Correct" in green letters at the bottom of the quizbox
+1. Click on "Start Quiz"
+   - a. Once the button is clicked the user will be presented with the first question
+   - b. The timer will begin counting down
+
+![image](https://github.com/dstorie80/BC_C4_JSQuiz/assets/149905416/cb094b7c-dfeb-496a-8dd6-d06940a088b0) 
+
+2. The questions on the quiz are multiple choice (including a true / false question).  
+   - a. Clicking on either a correct or incorrect response will move the user to the next question		
+      - i. Clicking on an incorrect question will show the correct answer in red text at the bottom of the quizbox
+        - A. Every incorrect answer selected will deduct 10 seconds off the time remaining
+      - ii. Clicking on a correct response, will show the word "Correct" in green letters at the bottom of the quizbox
+
+Incorrect
+![image](https://github.com/dstorie80/BC_C4_JSQuiz/assets/149905416/6442e8fe-d4a2-4055-ab77-e7d21811e52d)
+
+Correct
+![image](https://github.com/dstorie80/BC_C4_JSQuiz/assets/149905416/7859a6bc-225b-40bd-8d73-b6f18816ae21)
+
 3. Answering the questions correctly or incorrectly will eventually bring the user to the end of the quiz where they can enter their initials into a text box to add their initials and score to the high scores page
-	a. The score is the reminaing time left on the clock
+   - a. The score is the reminaing time left on the clock
+
+![image](https://github.com/dstorie80/BC_C4_JSQuiz/assets/149905416/f3250d01-4db5-4221-a2e0-da0c4347e43a)
+
+
 4. Once the initials are entered, the user will click on the "Submit" button and be presented with an alert stating "Your score has been submitted"
-5. Once the user has acknowleged the alert they will be taken to the high scores page
-	a. On the high scores page, the user will see a list of all the high scores that were submitted from their browser
-		i. The scores are arranged from highes to lowest
-	b. From the high scores the user will be presented with two options, "Re-Start and "Clear Highscores"
-		i. If the user clicks clear high scores
-			A. All scores in the list box will be removed 
-	       ii. If the user clicks on Re-Start
-			A. The user will return to the main quiz page to re-start the quiz
-				1a. On the main quiz page, the user can either re-start the quiz, or return to the high scores page
+
+![image](https://github.com/dstorie80/BC_C4_JSQuiz/assets/149905416/27631ca4-5e5b-41fe-9051-2d62dbcb0c78)
+
+
+6. Once the user has acknowleged the alert they will be taken to the high scores page
+   - a. On the high scores page, the user will see a list of all the high scores that were submitted from their browser
+      - i. The scores are arranged from highes to lowest
+   - b. From the high scores the user will be presented with two options, "Re-Start and "Clear Highscores"
+      - i. If the user clicks clear high scores
+        - A. All scores in the list box will be removed 
+      - ii. If the user clicks on Re-Start
+        - A. The user will return to the main quiz page to re-start the quiz
+           - 1a. On the main quiz page, the user can either re-start the quiz, or return to the high scores page
+
+![image](https://github.com/dstorie80/BC_C4_JSQuiz/assets/149905416/2a409daa-31d6-41db-b17d-a20ddd286543)
+
 
 
 
