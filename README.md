@@ -32,7 +32,7 @@ To pull the rep files:
 
 ## Usage
 
-To access the website you will need to follow this published link - 
+To access the website you will need to follow this published link - https://dstorie80.github.io/BC_C4_JSQuiz/
 
 To access the latest repo you will need to follow this github rep link - https://github.com/dstorie80/BC_C4_JSQuiz.git
 
